@@ -48,7 +48,8 @@ At each step, the array is divided by half. So let’s say the length of array a
 
 **Step 3:**     length of the searchable area = (n⁄2)⁄2 = **```n⁄(2^2)```**
 
-**...**
+After a while...
+
 **Step k:**     length of the searchable area = **```n⁄(2^k)```**
 
 Also, we know that after after k divisions, the length of array becomes ```1```. Therefore,
