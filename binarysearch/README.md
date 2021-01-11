@@ -37,6 +37,24 @@ Note that we only `return false` after the `while` loop has finished, meaning we
 
 Binary search has what we call a logarithmic running time, **O(log n)**, since we are dividing the problem in half each time.
 
+Let's go step-by-step with calculating Time Complexity:
+
+Let's say the search in Binary Search terminates in  ```k``` steps at most. 
+At each step, the array is divided by half. So let’s say the length of array at any step is ```n```.
+
+Step 1:     length of the searchable area = ```n```
+Step 2:     length of the searchable area = ```n⁄2```
+Step 3:     length of the searchable area = (n⁄2)⁄2 = ```n⁄(2^2)```
+...
+Step k:     length of the searchable area = ```n⁄(2^k)```
+
+Also, we know that after after k divisions, the length of array becomes ```1```. Therefore,
+Step k:     length of the searchable area = ```n⁄(2^k) = 1```, or ```n = 2^k```.
+
+So, out Time Complexity is the power to which we need to raise 2 to get n:
+```k = log2 (n)```
+Hence, the time complexity of Binary Search is ```log2 (n)```
+
 {% next %}
 
 ## Your Turn
