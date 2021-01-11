@@ -53,6 +53,6 @@ This tells us that the function has a return type of `bool`, meaning that the fu
 
 ## Review
 
-{% video https://www.youtube.com/watch?v=TwsgCHYmbbA %}
+{% video https://youtu.be/T98PIp4omUA?rel=0 %}
 
 [Download our CS50 Reference sheet on Binary Search](https://cs50.harvard.edu/ap/2021/curriculum/x/references/binary_search.pdf)
