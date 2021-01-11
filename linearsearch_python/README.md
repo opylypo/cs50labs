@@ -45,5 +45,9 @@ Since Python is such a powerful language, it does a linear search for you by ask
 
 Be sure to test your function by executing your program. Try a variety of inputs, including some numbers that are in the `bingo_card` array and some numbers that are not.
 
+## Review
 
-[Download our CS50 Reference sheet on Linear Search](https://cs50.harvard.edu/ap/2020/assets/pdfs/linear_search.pdf)
+{% video https://www.youtube.com/watch?v=TwsgCHYmbbA %}
+
+[Download our CS50 Reference sheet on Linear Search](https://cs50.harvard.edu/ap/2021/curriculum/x/references/linear_search.pdf)
+
