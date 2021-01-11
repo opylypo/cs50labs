@@ -58,7 +58,7 @@ Also, we know that after after k divisions, the length of array becomes ```1```.
 So, out Time Complexity is the power to which we need to raise 2 to get n:
  
 
-                            **```k = log2 (n)```**
+                            ```k = log2 (n)```
 
 Hence, **the Time Complexity of Binary Search is ```log2 (n)```**
 
