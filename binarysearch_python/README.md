@@ -37,6 +37,31 @@ Note that we only `return False` after the `while` loop has finished, meaning we
 
 Binary search has what we call a logarithmic running time, **O(log n)**, since we are dividing the problem in half each time.
 
+Let's go step-by-step with calculating Time Complexity:
+
+Let's say the search in Binary Search terminates in  ```k``` steps at most. 
+At each step, the array is divided by half. So let’s say the length of array at any step is ```n```.
+
+**Step 1:**     length of the searchable area = **```n```**
+
+**Step 2:**     length of the searchable area = **```n⁄2```**
+
+**Step 3:**     length of the searchable area = **(n⁄2)⁄2** = **```n⁄(2^2)```**
+
+After a while...
+
+**Step k:**     length of the searchable area = **```n⁄(2^k)```**
+
+Also, we know that after after k divisions, the length of array becomes ```1```. Therefore,
+**Step k:**     length of the searchable area = **```n⁄(2^k) = 1```**, or **```n = 2^k```**.
+
+So, out Time Complexity is the power to which we need to raise 2 to get n:
+ 
+
+                            ```k = log2 (n)```
+
+Hence, **the Time Complexity of Binary Search is ```log2 (n)```**
+
 {% next %}
 
 ## Your Turn
@@ -51,4 +76,8 @@ def bin_search(numbers, target)
 Note that this function must return `True` or `False`. When the function is called, as it is from the `main()` function, there are two arguments: `numbers` the name of the list we are searching through, and `target`, the element we are searching for.
 
 
-[Download our CS50 Reference sheet on Binary Search](https://cs50.harvard.edu/ap/2020/assets/pdfs/binary_search.pdf)
+## Review
+
+{% video https://youtu.be/T98PIp4omUA?rel=0 %}
+
+[Download our CS50 Reference sheet on Binary Search](https://cs50.harvard.edu/ap/2021/curriculum/x/references/binary_search.pdf)
