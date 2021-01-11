@@ -52,4 +52,9 @@ While it might seem like a good idea to check if the entire list is sorted after
 
 This is why we say that the worst case and best case scenarios for **selection sort** are both on the order of n<sup>2</sup>.
 
-[Download our CS50 Reference sheet on Selection Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/selection_sort.pdf)
+
+## Review
+
+{% video https://youtu.be/3hH8kTHFw2A?rel=0 %}
+
+[Download our CS50 Reference sheet on Selection Sort](https://cs50.harvard.edu/ap/2021/curriculum/x/references/selection_sort.pdf)
