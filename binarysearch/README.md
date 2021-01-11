@@ -56,6 +56,7 @@ Also, we know that after after k divisions, the length of array becomes ```1```.
 **Step k:**     length of the searchable area = **```n⁄(2^k) = 1```**, or **```n = 2^k```**.
 
 So, out Time Complexity is the power to which we need to raise 2 to get n:
+ 
 
                             **```k = log2 (n)```**
 
