@@ -56,4 +56,8 @@ Finally, call the `merge()` function, passing it the name of the array, the left
 
 {% endspoiler %}
 
-[Download our CS50 Reference sheet on Merge Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/merge_sort.pdf)
+## Review
+
+{% video https://youtu.be/Ns7tGNbtvV4?rel=0 %}
+
+[See Study Notes on Merge Sort](https://study.cs50.net/merge_sort)
